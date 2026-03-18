@@ -39,10 +39,12 @@ main {
   flex-direction: column;
   align-items: center;
   transition: all 0.4s;
+  user-select: none;
 }
 
 .card--limit {
   background-color: #8bb215;
+  user-select: none;
 }
 
 .title {
@@ -55,6 +57,7 @@ main {
   font-weight: 500;
   font-size: 32px;
   margin-top: 60px;
+  user-select: none;
 }
 
 .count {
@@ -62,12 +65,14 @@ main {
   font-size: 200px;
   font-weight: 600;
   margin-top: 10px;
+  user-select: none;
 }
 
 .reset-btn {
   cursor: pointer;
   opacity: 0.3;
   transition: all 0.4s;
+  user-select: none;
 }
 
 .reset-btn:hover,
@@ -79,6 +84,7 @@ main {
   color: #1d2507;
   height: 40px;
   width: 40px;
+  user-select: none;
 }
 
 .button-container {
@@ -89,6 +95,7 @@ main {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   display: flex;
+  user-select: none;
 }
 
 .count-btn {
@@ -98,6 +105,7 @@ main {
   align-items: center;
   cursor: pointer;
   transition: all 0.4s;
+  user-select: none;
 }
 
 .count-btn:first-child {
@@ -111,6 +119,7 @@ main {
 
 .count-btn--plus {
   border-left: 1px solid rgba(189, 254, 0, 0.15);
+  user-select: none;
 }
 
 .count-btn-icon {
@@ -118,6 +127,7 @@ main {
   opacity: 0.9;
   height: 40px;
   width: 40px;
+  user-select: none;
 }
 
 @media (max-width: 680px) or (max-height: 730px) {
